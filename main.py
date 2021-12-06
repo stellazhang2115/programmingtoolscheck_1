@@ -7,13 +7,16 @@
 # 6. Write a new test for your new function in main_test.py, and check to see all 3 tests are passing
 # 7. When you are done, raise your hand. If you are correct, you will receive further instructions on how to add your code to github
 
-def print_hi_stephen():
+def test_print_hi_stephen(self):
+    name = "Stephen"
     return f'Hi, {name}'
 
 
-def print_hi_you():
+def test_print_hi_stella(self):
+    name="stella"
     return f'Hi, {name}'
 
 
-#def print_hi_?():
-#    return
+def test_print_hi_christina(self):
+    name="christina"
+    return f'Hi, {name}'
